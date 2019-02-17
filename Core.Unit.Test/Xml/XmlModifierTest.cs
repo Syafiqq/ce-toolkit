@@ -28,6 +28,25 @@ namespace Core.Unit.Test.Xml
 
         private void Filter(XmlElement el)
         {
+            if (el?.Name == null)
+                return;
+
+            switch (el.Name.ToLowerInvariant())
+            {
+                case "laststate" : ProcLastState(el);
+                    break;
+                case "address" : ProcAddress(el);
+                    break;
+            }
+        }
+
+        private void ProcAddress(XmlNode el)
+        {
+            Console.WriteLine(el.Name);
+        }
+
+        private void ProcLastState(XmlNode el)
+        {
             Console.WriteLine(el.Name);
         }
 
@@ -35,14 +54,14 @@ namespace Core.Unit.Test.Xml
         {
             if (node == null)
                 return;
-            if(node is XmlElement n1)
+            if (node is XmlElement n1)
                 action(n1);
 
             if (node.HasChildNodes)
             {
                 foreach (XmlNode n in node.ChildNodes)
                 {
-                    if(n is XmlElement n2)
+                    if (n is XmlElement n2)
                         Transverse(n2, action);
                 }
             }
