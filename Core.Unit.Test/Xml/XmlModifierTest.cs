@@ -21,7 +21,31 @@ namespace Core.Unit.Test.Xml
             var file = Path.Combine(ExePath, ResPath, FileName);
             var doc = new XmlDocument();
             doc.Load(file);
+            XmlNode root = doc.DocumentElement;
+            Transverse(root, Filter);
             doc.Save(file);
+        }
+
+        private void Filter(XmlElement el)
+        {
+            Console.WriteLine(el.Name);
+        }
+
+        void Transverse(XmlNode node, Action<XmlElement> action)
+        {
+            if (node == null)
+                return;
+            if(node is XmlElement n1)
+                action(n1);
+
+            if (node.HasChildNodes)
+            {
+                foreach (XmlNode n in node.ChildNodes)
+                {
+                    if(n is XmlElement n2)
+                        Transverse(n2, action);
+                }
+            }
         }
     }
 }
