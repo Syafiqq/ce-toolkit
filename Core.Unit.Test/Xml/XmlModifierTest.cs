@@ -33,21 +33,29 @@ namespace Core.Unit.Test.Xml
 
             switch (el.Name.ToLowerInvariant())
             {
-                case "laststate" : ProcLastState(el);
+                case "laststate":
+                    ProcLastState(el);
                     break;
-                case "address" : ProcAddress(el);
+                case "address":
+                    ProcAddress(el);
                     break;
             }
         }
 
-        private void ProcAddress(XmlNode el)
+        private void ProcAddress(XmlElement el)
         {
-            Console.WriteLine(el.Name);
+            var addr = Convert.ToInt64(el.InnerText, 16);
+            if(addr == 0L)
+                el.InnerText = Convert.ToString(addr + 1, 16).ToUpperInvariant();
         }
 
-        private void ProcLastState(XmlNode el)
+        private void ProcLastState(XmlElement el)
         {
-            Console.WriteLine(el.Name);
+            if (el.HasAttribute("RealAddress"))
+            {
+                var addr = Convert.ToInt64(el.GetAttribute("RealAddress"), 16);
+                el.SetAttribute("RealAddress", Convert.ToString(addr + 1, 16).ToUpperInvariant());
+            }
         }
 
         void Transverse(XmlNode node, Action<XmlElement> action)
