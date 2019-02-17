@@ -45,7 +45,7 @@ namespace Core.Unit.Test.Xml
         private void ProcAddress(XmlElement el)
         {
             var addr = Convert.ToInt64(el.InnerText, 16);
-            if(addr == 0L)
+            if(addr != 0L)
                 el.InnerText = Convert.ToString(addr + 1, 16).ToUpperInvariant();
         }
 
