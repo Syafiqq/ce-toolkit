@@ -1,101 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CheatTable CheatEngineTableVersion="26">
   <CheatEntries>
     <CheatEntry>
       <ID>122</ID>
       <Description>"No description"</Description>
-      <LastState Value="4290" RealAddress="23DE1D805A8"/>
+      <LastState Value="4290" RealAddress="23DE1D805A8" />
       <VariableType>2 Bytes</VariableType>
       <Address>23DE1D805A8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>123</ID>
       <Description>"item 0001 01"</Description>
-      <LastState Value="22" RealAddress="23DE26F5298"/>
+      <LastState Value="22" RealAddress="23DE26F5298" />
       <VariableType>2 Bytes</VariableType>
       <Address>23DE26F5298</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>110</ID>
       <Description>"empire"</Description>
-      <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Options moHideChildren="1" />
+      <LastState Value="" Activated="1" RealAddress="00000000" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>111</ID>
           <Description>"food"</Description>
-          <Options moHideChildren="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <Options moHideChildren="1" />
+          <LastState Value="" Activated="1" RealAddress="00000000" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>115</ID>
               <Description>"daikon"</Description>
-              <LastState Value="8" RealAddress="23DE273BEF5"/>
+              <LastState Value="8" RealAddress="23DE273BEF5" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF5</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>116</ID>
               <Description>"daikon"</Description>
-              <LastState Value="10" RealAddress="23DE273BEF4"/>
+              <LastState Value="10" RealAddress="23DE273BEF4" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>117</ID>
               <Description>"daikon"</Description>
-              <LastState Value="10" RealAddress="23DE273BEF3"/>
+              <LastState Value="10" RealAddress="23DE273BEF3" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF3</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>118</ID>
               <Description>"daikon"</Description>
-              <LastState Value="10" RealAddress="23DE273BEF2"/>
+              <LastState Value="10" RealAddress="23DE273BEF2" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF2</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>119</ID>
               <Description>"daikon"</Description>
-              <LastState Value="10" RealAddress="23DE273BEF1"/>
+              <LastState Value="10" RealAddress="23DE273BEF1" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF1</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>120</ID>
               <Description>"daikon"</Description>
-              <LastState Value="10" RealAddress="23DE273BEF0"/>
+              <LastState Value="10" RealAddress="23DE273BEF0" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF0</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>114</ID>
               <Description>"daikon"</Description>
-              <LastState Value="8" RealAddress="23DE273BEF6"/>
+              <LastState Value="8" RealAddress="23DE273BEF6" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF6</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>109</ID>
               <Description>"daikon"</Description>
-              <LastState Value="11" RealAddress="23DE273BEF7"/>
+              <LastState Value="11" RealAddress="23DE273BEF7" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF7</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>112</ID>
               <Description>"daikon"</Description>
-              <LastState Value="10" RealAddress="23DE273BEF8"/>
+              <LastState Value="10" RealAddress="23DE273BEF8" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF8</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>113</ID>
               <Description>"daikon"</Description>
-              <LastState Value="10" RealAddress="23DE273BEF9"/>
+              <LastState Value="10" RealAddress="23DE273BEF9" />
               <VariableType>Byte</VariableType>
               <Address>23DE273BEF9</Address>
             </CheatEntry>
@@ -106,70 +106,70 @@
     <CheatEntry>
       <ID>14</ID>
       <Description>"exp"</Description>
-      <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Options moHideChildren="1" />
+      <LastState Value="" Activated="1" RealAddress="00000000" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>100</ID>
           <Description>"exp 0001"</Description>
-          <LastState Value="0" RealAddress="23DE26F5282"/>
+          <LastState Value="0" RealAddress="23DE26F5282" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5282</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>101</ID>
           <Description>"exp 0002"</Description>
-          <LastState Value="0" RealAddress="23DE26F53C2"/>
+          <LastState Value="0" RealAddress="23DE26F53C2" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F53C2</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>102</ID>
           <Description>"exp 0003"</Description>
-          <LastState Value="0" RealAddress="23DE26F5502"/>
+          <LastState Value="0" RealAddress="23DE26F5502" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5502</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>103</ID>
           <Description>"exp 0004"</Description>
-          <LastState Value="0" RealAddress="23DE26F5642"/>
+          <LastState Value="0" RealAddress="23DE26F5642" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5642</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>104</ID>
           <Description>"exp 0005"</Description>
-          <LastState Value="0" RealAddress="23DE26F5782"/>
+          <LastState Value="0" RealAddress="23DE26F5782" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5782</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>105</ID>
           <Description>"exp 0006"</Description>
-          <LastState Value="0" RealAddress="23DE26F58C2"/>
+          <LastState Value="0" RealAddress="23DE26F58C2" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F58C2</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>106</ID>
           <Description>"exp 0007"</Description>
-          <LastState Value="0" RealAddress="23DE26F5A02"/>
+          <LastState Value="0" RealAddress="23DE26F5A02" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5A02</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>107</ID>
           <Description>"exp 0008"</Description>
-          <LastState Value="0" RealAddress="23DE26F5B42"/>
+          <LastState Value="0" RealAddress="23DE26F5B42" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5B42</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>108</ID>
           <Description>"exp 0009"</Description>
-          <LastState Value="0" RealAddress="23DE26F5C82"/>
+          <LastState Value="0" RealAddress="23DE26F5C82" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5C82</Address>
         </CheatEntry>
@@ -178,70 +178,70 @@
     <CheatEntry>
       <ID>13</ID>
       <Description>"hp"</Description>
-      <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Options moHideChildren="1" />
+      <LastState Value="" Activated="1" RealAddress="00000000" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>91</ID>
           <Description>"hp 0001"</Description>
-          <LastState Value="65" Activated="1" RealAddress="23DE26F5283"/>
+          <LastState Value="65" Activated="1" RealAddress="23DE26F5283" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5283</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>92</ID>
           <Description>"hp 0002"</Description>
-          <LastState Value="55" Activated="1" RealAddress="23DE26F53C3"/>
+          <LastState Value="55" Activated="1" RealAddress="23DE26F53C3" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F53C3</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>93</ID>
           <Description>"hp 0003"</Description>
-          <LastState Value="60" Activated="1" RealAddress="23DE26F5503"/>
+          <LastState Value="60" Activated="1" RealAddress="23DE26F5503" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5503</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>94</ID>
           <Description>"hp 0004"</Description>
-          <LastState Value="60" Activated="1" RealAddress="23DE26F5643"/>
+          <LastState Value="60" Activated="1" RealAddress="23DE26F5643" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5643</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>95</ID>
           <Description>"hp 0005"</Description>
-          <LastState Value="60" Activated="1" RealAddress="23DE26F5783"/>
+          <LastState Value="60" Activated="1" RealAddress="23DE26F5783" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5783</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>96</ID>
           <Description>"hp 0006"</Description>
-          <LastState Value="65" Activated="1" RealAddress="23DE26F58C3"/>
+          <LastState Value="65" Activated="1" RealAddress="23DE26F58C3" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F58C3</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>97</ID>
           <Description>"hp 0007"</Description>
-          <LastState Value="0" RealAddress="23DE26F5A03"/>
+          <LastState Value="0" RealAddress="23DE26F5A03" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5A03</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>98</ID>
           <Description>"hp 0008"</Description>
-          <LastState Value="0" RealAddress="23DE26F5B43"/>
+          <LastState Value="0" RealAddress="23DE26F5B43" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5B43</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>99</ID>
           <Description>"hp 0009"</Description>
-          <LastState Value="0" RealAddress="23DE26F5C83"/>
+          <LastState Value="0" RealAddress="23DE26F5C83" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5C83</Address>
         </CheatEntry>
@@ -250,147 +250,147 @@
     <CheatEntry>
       <ID>47</ID>
       <Description>"item"</Description>
-      <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Options moHideChildren="1" />
+      <LastState Value="" Activated="1" RealAddress="00000000" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>62</ID>
           <Description>"item 0001 01"</Description>
-          <LastState Value="22" RealAddress="23DE26F5298"/>
+          <LastState Value="22" RealAddress="23DE26F5298" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F5298</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>63</ID>
           <Description>"item 0001 02"</Description>
-          <LastState Value="292" RealAddress="23DE26F529C"/>
+          <LastState Value="292" RealAddress="23DE26F529C" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F529C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>64</ID>
           <Description>"item 0001 03"</Description>
-          <LastState Value="312" RealAddress="23DE26F52A0"/>
+          <LastState Value="312" RealAddress="23DE26F52A0" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F52A0</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>65</ID>
           <Description>"item 0001 04"</Description>
-          <LastState Value="0" RealAddress="23DE26F52A4"/>
+          <LastState Value="0" RealAddress="23DE26F52A4" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F52A4</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>66</ID>
           <Description>"item 0001 05"</Description>
-          <LastState Value="0" RealAddress="23DE26F52A8"/>
+          <LastState Value="0" RealAddress="23DE26F52A8" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F52A8</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>67</ID>
           <Description>"item 0003 01"</Description>
-          <LastState Value="3" RealAddress="23DE26F5518"/>
+          <LastState Value="3" RealAddress="23DE26F5518" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F5518</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>68</ID>
           <Description>"item 0003 02"</Description>
-          <LastState Value="59" RealAddress="23DE26F551C"/>
+          <LastState Value="59" RealAddress="23DE26F551C" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F551C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>69</ID>
           <Description>"item 0003 03"</Description>
-          <LastState Value="292" RealAddress="23DE26F5520"/>
+          <LastState Value="292" RealAddress="23DE26F5520" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F5520</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>70</ID>
           <Description>"item 0003 04"</Description>
-          <LastState Value="0" RealAddress="23DE26F5524"/>
+          <LastState Value="0" RealAddress="23DE26F5524" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F5524</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>71</ID>
           <Description>"item 0003 05"</Description>
-          <LastState Value="0" RealAddress="23DE26F5528"/>
+          <LastState Value="0" RealAddress="23DE26F5528" />
           <VariableType>2 Bytes</VariableType>
           <Address>23DE26F5528</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>72</ID>
           <Description>"qty 0001 01"</Description>
-          <LastState Value="64" RealAddress="23DE26F529B"/>
+          <LastState Value="64" RealAddress="23DE26F529B" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F529B</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>73</ID>
           <Description>"qty 0001 02"</Description>
-          <LastState Value="55" RealAddress="23DE26F529F"/>
+          <LastState Value="55" RealAddress="23DE26F529F" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F529F</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>74</ID>
           <Description>"qty 0001 03"</Description>
-          <LastState Value="1" RealAddress="23DE26F52A3"/>
+          <LastState Value="1" RealAddress="23DE26F52A3" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F52A3</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>75</ID>
           <Description>"qty 0001 04"</Description>
-          <LastState Value="0" RealAddress="23DE26F52A7"/>
+          <LastState Value="0" RealAddress="23DE26F52A7" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F52A7</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>76</ID>
           <Description>"qty 0001 05 "</Description>
-          <LastState Value="0" RealAddress="23DE26F52AB"/>
+          <LastState Value="0" RealAddress="23DE26F52AB" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F52AB</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>77</ID>
           <Description>"qty 0003 01"</Description>
-          <LastState Value="64" RealAddress="23DE26F551B"/>
+          <LastState Value="64" RealAddress="23DE26F551B" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F551B</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>78</ID>
           <Description>"qty 0003 02"</Description>
-          <LastState Value="0" RealAddress="23DE26F551F"/>
+          <LastState Value="0" RealAddress="23DE26F551F" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F551F</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>79</ID>
           <Description>"qty 0003 03"</Description>
-          <LastState Value="51" RealAddress="23DE26F5523"/>
+          <LastState Value="51" RealAddress="23DE26F5523" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5523</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>80</ID>
           <Description>"qty 0003 04"</Description>
-          <LastState Value="0" RealAddress="23DE26F5527"/>
+          <LastState Value="0" RealAddress="23DE26F5527" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5527</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>81</ID>
           <Description>"qty 0003 05"</Description>
-          <LastState Value="0" RealAddress="23DE26F552B"/>
+          <LastState Value="0" RealAddress="23DE26F552B" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F552B</Address>
         </CheatEntry>
@@ -399,70 +399,70 @@
     <CheatEntry>
       <ID>12</ID>
       <Description>"lv"</Description>
-      <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Options moHideChildren="1" />
+      <LastState Value="" Activated="1" RealAddress="00000000" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>82</ID>
           <Description>"lv 0001"</Description>
-          <LastState Value="20" RealAddress="23DE26F5281"/>
+          <LastState Value="20" RealAddress="23DE26F5281" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5281</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>83</ID>
           <Description>"lv 0002"</Description>
-          <LastState Value="20" RealAddress="23DE26F53C1"/>
+          <LastState Value="20" RealAddress="23DE26F53C1" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F53C1</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>84</ID>
           <Description>"lv 0003"</Description>
-          <LastState Value="20" RealAddress="23DE26F5501"/>
+          <LastState Value="20" RealAddress="23DE26F5501" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5501</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>85</ID>
           <Description>"lv 0004"</Description>
-          <LastState Value="20" RealAddress="23DE26F5641"/>
+          <LastState Value="20" RealAddress="23DE26F5641" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5641</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>86</ID>
           <Description>"lv 0005"</Description>
-          <LastState Value="20" RealAddress="23DE26F5781"/>
+          <LastState Value="20" RealAddress="23DE26F5781" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5781</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>87</ID>
           <Description>"lv 0006"</Description>
-          <LastState Value="20" RealAddress="23DE26F58C1"/>
+          <LastState Value="20" RealAddress="23DE26F58C1" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F58C1</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>88</ID>
           <Description>"lv 0007"</Description>
-          <LastState Value="1" RealAddress="23DE26F5A01"/>
+          <LastState Value="1" RealAddress="23DE26F5A01" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5A01</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>89</ID>
           <Description>"lv 0008"</Description>
-          <LastState Value="1" RealAddress="23DE26F5B41"/>
+          <LastState Value="1" RealAddress="23DE26F5B41" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5B41</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>90</ID>
           <Description>"lv 0009"</Description>
-          <LastState Value="1" RealAddress="23DE26F5C81"/>
+          <LastState Value="1" RealAddress="23DE26F5C81" />
           <VariableType>Byte</VariableType>
           <Address>23DE26F5C81</Address>
         </CheatEntry>
@@ -471,17 +471,17 @@
     <CheatEntry>
       <ID>124</ID>
       <Description>"No description"</Description>
-      <LastState Value="255" RealAddress="23DE26F51D0"/>
+      <LastState Value="255" RealAddress="23DE26F51D0" />
       <VariableType>Byte</VariableType>
       <Address>23DE26F51D0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>125</ID>
       <Description>"No description"</Description>
-      <LastState Value="255" RealAddress="23DE26F5311"/>
+      <LastState Value="255" RealAddress="23DE26F5311" />
       <VariableType>Byte</VariableType>
       <Address>23DE26F5311</Address>
     </CheatEntry>
   </CheatEntries>
-  <UserdefinedSymbols/>
+  <UserdefinedSymbols />
 </CheatTable>
