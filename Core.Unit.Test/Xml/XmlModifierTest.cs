@@ -54,7 +54,8 @@ namespace Core.Unit.Test.Xml
             if (el.HasAttribute("RealAddress"))
             {
                 var addr = Convert.ToInt64(el.GetAttribute("RealAddress"), 16);
-                el.SetAttribute("RealAddress", Convert.ToString(addr + 1, 16).ToUpperInvariant());
+                if(addr != 0L)
+                    el.SetAttribute("RealAddress", Convert.ToString(addr + 1, 16).ToUpperInvariant());
             }
         }
 
