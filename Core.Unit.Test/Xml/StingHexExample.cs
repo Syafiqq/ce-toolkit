@@ -63,7 +63,8 @@ namespace Core.Unit.Test.Xml
         [Test]
         public void TestMinusHexToLong()
         {
-            var x = "-F";
+            var hex = "-F";
+            var x = hex;
             var s = '+';
             if (x[0] == '-' || x[0] == '+')
             {
@@ -79,6 +80,7 @@ namespace Core.Unit.Test.Xml
             var a = -15L;
             
             Assert.AreEqual(a, y1);
+            Assert.AreEqual(a, HexParser.HexStringToLong(hex));
             Assert.AreEqual(8, y.Length);
         }
     }
