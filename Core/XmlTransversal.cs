@@ -3,17 +3,17 @@ using System.Xml;
 
 namespace Core
 {
-    public class XmlModifier
+    public class XmlTransversal
     {
         public long Modifier { get; private set; }
 
-        private XmlModifier()
+        private XmlTransversal()
         {
         }
 
-        public static XmlModifier WithConfig(long modifier)
+        public static XmlTransversal WithConfig(long modifier)
         {
-            var instance = new XmlModifier();
+            var instance = new XmlTransversal();
             instance.Modifier = modifier;
             return instance;
         }
