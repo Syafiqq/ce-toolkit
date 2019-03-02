@@ -11,7 +11,7 @@ namespace Core
         {
         }
 
-        public XmlModifier WithConfig(long modifier)
+        public static XmlModifier WithConfig(long modifier)
         {
             var instance = new XmlModifier();
             instance.Modifier = modifier;
@@ -51,7 +51,7 @@ namespace Core
             }
         }
 
-        void Transverse(XmlNode node, Action<XmlElement> action)
+        public void Transverse(XmlNode node, Action<XmlElement> action)
         {
             if (node == null)
                 return;
