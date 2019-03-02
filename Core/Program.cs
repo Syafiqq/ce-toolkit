@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
+using System.Xml;
 using IniParser;
 
 namespace Core
@@ -12,6 +14,30 @@ namespace Core
         static void Main(string[] args)
         {
             Init(args);
+            if (Path == null)
+            {
+                Console.WriteLine("Invalid Path");
+                Environment.Exit(1);
+            }
+
+            if (Modifier == null)
+            {
+                Console.WriteLine("Invalid Modifier");
+                Environment.Exit(1);
+            }
+
+            DoProcess();
+        }
+
+        private static void DoProcess()
+        {
+            Debug.Assert(Modifier != null, nameof(Modifier) + " != null");
+
+            var doc = new XmlDocument();
+            doc.Load(Path);
+            XmlNode root = doc.DocumentElement;
+            XmlTransversal.Transverse(root, XmlModifier.WithConfig((long) Modifier).Filter);
+            doc.Save(Path);
         }
 
         private static void Init(string[] args)
